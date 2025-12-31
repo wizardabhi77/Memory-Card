@@ -5,38 +5,30 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.pokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap : 20px;
+  border: white 2px groove;
+  height: auto;
+  width : 1500px;
+  padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
+  border: whitesmoke 2px inset;
+  background-color: #6d06a8;
+  height: auto;
+  width: 200px;
 }
 
-.read-the-docs {
-  color: #888;
-}

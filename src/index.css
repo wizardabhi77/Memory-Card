@@ -7,6 +7,9 @@
   color: rgba(50, 2, 70, 0.87);
   background-color: #242424;
 
+  background-image: url('./assets/digital-art-style-illustration-thunderstorm.jpg');
+  background-size: cover;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,8 +23,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('./assets/digital-art-style-illustration-thunderstorm.jpg');
-  background-size: cover;
+  
 }
 
 h1 {
